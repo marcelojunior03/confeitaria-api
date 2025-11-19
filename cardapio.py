@@ -5,7 +5,15 @@ def buscar_cardapio():
             "nome": "Chocomoça",
             "descricao": "Bolo de chocolate com leite ninho",
             "valor": "49.99",
-            "imagem": ""
+            "foto": ""
         }
     ]
     return itens
+
+def buscar_por_id(item_id):
+    return{
+        "id": 1,
+        "nome": "Chocomoça",
+        "descricao": "Bolo de chocolate com leite ninho",
+        "valor": "49.99",
+    }
